@@ -20,6 +20,12 @@ public class RegistrationController {
     private final UserService userService;
     private final ApplicationEventPublisher applicationEventPublisher;
 
+    @GetMapping("/test")
+    public ResponseEntity<String> testIfWorks()
+    {
+        return ResponseEntity.ok().body("Working as intended");
+    }
+
     @PostMapping("/register")
     public ResponseEntity<String> registerUser(
             @RequestBody UserPostRequestBody userPostRequestBody,
