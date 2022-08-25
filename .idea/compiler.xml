@@ -11,7 +11,9 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="user-handler-for-list-of-animes-project-remake-gradle.user-handler-for-list-of-animes-project-remake-gradle.main" target="11" />
       <module name="user-handler-for-list-of-animes-project-remake-gradle.user-handler-for-list-of-animes-project-remake-gradle.main~1" target="11" />
+      <module name="user-handler-for-list-of-animes-project-remake-gradle.user-handler-for-list-of-animes-project-remake-gradle.test" target="11" />
       <module name="user-handler-for-list-of-animes-project-remake-gradle.user-handler-for-list-of-animes-project-remake-gradle.test~1" target="11" />
     </bytecodeTargetLevel>
   </component>
